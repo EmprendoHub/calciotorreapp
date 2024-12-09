@@ -14,7 +14,7 @@ const CategoriesComp = ({ categoryDic, lang }) => {
           subtitle={categoryDic.text}
         />
       </div>
-      <div className="grid maxsm:grid-cols-2 grid-cols-3 gap-5 w-full">
+      <div className="grid maxsm:grid-cols-1 grid-cols-3 gap-5 w-full">
         {categoryDic.categories.map((category) => (
           <Link
             key={category.title}
