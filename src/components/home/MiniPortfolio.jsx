@@ -11,7 +11,7 @@ const MiniPortfolio = ({ homeDic }) => {
         initial={{ opacity: 0.2 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="bg-primary w-[450px] h-[450px] maxmd:w-[250px] maxmd:h-[250px]  maxsm:h-[200px] maxsm:w-[200px] absolute right-0"
+        className="bg-black w-[450px] h-[450px] maxmd:w-[250px] maxmd:h-[250px]  maxsm:h-[200px] maxsm:w-[200px] absolute right-0"
       />
       <div className={` flex items-center justify-center  gap-x-4`}>
         <div className="relative flex w-[70%] maxlg:w-[90%] flex-col gap-4  ">

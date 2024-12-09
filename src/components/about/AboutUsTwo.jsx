@@ -3,7 +3,7 @@ import Brain from "@/components/motions/Brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import coverImage from "../../../public/images/hudson_about_cover.webp";
+import coverImage from "../../../public/images/calciotorre_about_cover.webp";
 import { FaEye } from "react-icons/fa6";
 import portfolioImage01 from "../../../public/images/team-image-1.webp";
 import portfolioImage02 from "../../../public/images/team-image-2.webp";
@@ -69,8 +69,11 @@ const AboutUsTwo = ({ aboutDic, homeDic }) => {
 
   return (
     <div>
-      <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
-        <div className="absolute bg-primary bg-opacity-40 w-full h-full z-0" />
+      <div
+        id="about-us"
+        className="w-full h-[500px] overflow-hidden top-0 relative flex justify-center items-center flex-col "
+      >
+        <div className="absolute bg-black bg-opacity-40 w-full h-full z-0" />
         <Image
           src={coverImage}
           width={1920}

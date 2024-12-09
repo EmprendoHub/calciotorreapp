@@ -7,7 +7,7 @@ const SideToSideText = ({ homeDic }) => {
   return (
     <div className="w-full h-full overflow-x-hidden my-10 px-40 maxxlg:px-20 maxlg:px-10 maxmd:px-5 ">
       {/* underhero */}
-      <section className="bg-dark dark:bg-primary text-white py-8">
+      <section className="bg-dark dark:bg-black text-white py-8">
         <div className="container max-w-5xl mx-auto m-8">
           <div className="flex maxmd:flex-wrap items-center justify-center">
             <div className="w-3/5 maxmd:w-full p-6">
@@ -18,7 +18,7 @@ const SideToSideText = ({ homeDic }) => {
                 className="text-3xl  dark:text-gray-300 font-primary leading-none mb-3"
               >
                 <span>{homeDic.sideText.title} </span>
-                <span className="text-primary dark:text-dark">
+                <span className="text-black dark:text-dark">
                   {homeDic.sideText.titleTwo}
                 </span>
               </motion.h2>
@@ -26,7 +26,7 @@ const SideToSideText = ({ homeDic }) => {
                 initial={{ y: 50, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8 }}
-                className="h-2 bg-primary dark:bg-dark my-2 rounded-full w-[80%]"
+                className="h-2 bg-black dark:bg-dark my-2 rounded-full w-[80%]"
               />
 
               <motion.p
@@ -45,7 +45,7 @@ const SideToSideText = ({ homeDic }) => {
                     duration: 1.1,
                   }}
                   aria-label="Contactar"
-                  className="bg-primary dark:bg-dark px-10 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
+                  className="bg-black dark:bg-dark px-10 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
                 >
                   {homeDic.sideText.btnText}
                 </motion.button>
@@ -62,7 +62,7 @@ const SideToSideText = ({ homeDic }) => {
                   stiffness: 260,
                   damping: 20,
                 }}
-                className="circle rounded-full h-20 w-20 bg-primary dark:bg-dark mb-10"
+                className="circle rounded-full h-20 w-20 bg-black dark:bg-dark mb-10"
               />
               <div className="relative w-full">
                 <div className={`relative `}>

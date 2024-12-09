@@ -156,7 +156,7 @@ const EmailForm = ({ cookie, contactDic }) => {
           ></textarea>
           <button
             type="submit"
-            className="mt-5 bg-primary dark:bg-dark"
+            className="mt-5 bg-black dark:bg-dark"
             disabled={activeButton}
           >
             <p className=" bg-fourth  text-white py-3">

@@ -571,9 +571,7 @@ const InfiniteLogoSlider = ({ homeDic }) => {
       <section className=" py-8 h-full relative  pb-10">
         <h2 className="w-full my-2 text-3xl font-primary leading-tight text-center text-gray-800 dark:text-gray-300">
           <span>{homeDic.infiniteSlider.title} </span>
-          <span className="text-primary">
-            {homeDic.infiniteSlider.titleTwo}
-          </span>
+          <span className="text-black">{homeDic.infiniteSlider.titleTwo}</span>
         </h2>
         <div className="w-full mb-4 text-sm maxmd:text-xs text-center  font-secondary px-1">
           {homeDic.infiniteSlider.subtitle}

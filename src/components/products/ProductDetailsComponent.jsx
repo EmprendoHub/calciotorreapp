@@ -43,7 +43,7 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
   return (
     <div className="container-class py-5 ">
       <main className="flex flex-col items-center justify-between w-full">
-        <div className="w-[600px] maxmd:w-[400px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 bg-slate-100 dark:bg-primary rounded-lg">
+        <div className="w-[600px] maxmd:w-[400px] maxxsm:w-[300px] mx-auto wrapper-class gap-3 bg-slate-100 dark:bg-black rounded-lg">
           <div className="flex flex-col items-start justify-start ">
             {/* Left Panel */}
 
@@ -161,10 +161,10 @@ const ProductDetailsComponent = ({ data, lang, setShowModal, productDic }) => {
                         <Link
                           href={
                             lang === "es"
-                              ? `https://api.whatsapp.com/send/?phone=12069799807&text=Hola+%2ACalcio+Torre%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+${
+                              ? `https://api.whatsapp.com/send/?phone=523323104474&text=Hola+%2ACalcio+Torre%2A.+Me+Interesa+cotizar+y+obtener+m%C3%A1s+informaci%C3%B3n+de+${
                                   product?.title[`${lang}`]
                                 }&type=phone_number&app_absent=0`
-                              : `https://api.whatsapp.com/send/?phone=12069799807&text=Hello+%2ACalcio+Torre%2A.+Im+Interested+in+getting+a+quote+and+more+information+on+${
+                              : `https://api.whatsapp.com/send/?phone=523323104474&text=Hello+%2ACalcio+Torre%2A.+Im+Interested+in+getting+a+quote+and+more+information+on+${
                                   product?.title[`${lang}`]
                                 }&type=phone_number&app_absent=0`
                           }

@@ -13,18 +13,18 @@ import ContactUsComponent from "../contact/ContactUsComponent";
 
 const ContactComponent = ({ contactDic }) => {
   return (
-    <div className="bg-white dark:bg-primary py-12 px-40 maxxlg:px-20 maxlg:px-5 h-full overflow-x-hidden ">
+    <div className="bg-white dark:bg-black py-12 px-40 maxxlg:px-20 maxlg:px-5 h-full overflow-x-hidden ">
       {/* Title */}
-      <div className="w-full flex h-full gap-x-5 maxmd:flex-col justify-center items-center mb-2">
+      <div className="w-full flex h-full gap-x-5 flex-col justify-center items-center mb-2">
         <div className="w-1/2 maxmd:w-full pr-10 maxmd:px-1 maxmd:mt-10  ">
-          <p className="uppercase font-secondary tracking-widest text-xs text-gray-500 maxmd:text-center">
+          <p className="uppercase font-secondary tracking-widest text-xs text-gray-500 text-center">
             {contactDic.contactInfo.pretitle}
           </p>
-          <h3 className="maxmd:text-center text-3xl maxsm:text-3xl font-primary mb-1">
+          <h3 className="text-center text-3xl maxsm:text-3xl font-primary mb-1">
             <span>{contactDic.contactInfo.title} </span>
             <span className="text-dark">{contactDic.contactInfo.titleTwo}</span>
           </h3>
-          <p className="maxmd:text-center font-secondary italic maxlg:text-sm">
+          <p className="text-center font-secondary italic maxlg:text-sm">
             {contactDic.contactInfo.subtitle}
           </p>
         </div>
@@ -43,7 +43,7 @@ const ContactComponent = ({ contactDic }) => {
                   aria-label="Facebook"
                   target="_blank"
                   href={
-                    "https://www.facebook.com/Hudson-International-Market-100649958963881"
+                    "https://www.facebook.com/profile.php?id=100064426654239"
                   }
                   className="relative flex items-center justify-center group"
                 >
@@ -70,7 +70,7 @@ const ContactComponent = ({ contactDic }) => {
                   <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* LinkedIn */}
-                <Link
+                {/* <Link
                   aria-label="LinkedIn"
                   target="_blank"
                   href={
@@ -99,12 +99,12 @@ const ContactComponent = ({ contactDic }) => {
                     </g>
                   </svg>
                   <FaLinkedin className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
-                </Link>
+                </Link> */}
                 {/* WhatsApp */}
                 <Link
                   aria-label="WhatsApp"
                   target="_blank"
-                  href={"https://wa.me/12069799807"}
+                  href={"https://wa.me/523323104474"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>
@@ -135,9 +135,9 @@ const ContactComponent = ({ contactDic }) => {
               <p className="text-[12px] text-center uppercase font-secondary text-gray-500">
                 {contactDic.contactInfo.questions}
               </p>
-              <Link href={"mailto:calciotorre01@gmail.com"}>
-                <p className="maxmd:text-center text-base font-primary hover:text-secondary ease-in-out duration-700">
-                  calciotorre01@gmail.com
+              <Link href={"mailto:ventas@calciotorre.com.mx"}>
+                <p className="text-center text-base font-primary hover:text-secondary ease-in-out duration-700">
+                  ventas@calciotorre.com.mx
                 </p>
               </Link>
             </div>
@@ -146,12 +146,10 @@ const ContactComponent = ({ contactDic }) => {
         </div>
       </div>
       {/* Address One */}
-      <div className="w-full flex h-full gap-x-5 maxmd:flex-col-reverse justify-end items-center">
+      <div className="w-full flex h-full gap-x-5 flex-col-reverse justify-end items-center">
         {/*  Map */}
         <div className="w-1/2 maxmd:w-full pr-10 maxmd:px-1 maxmd:mt-10  ">
-          <div className="w-full h-auto flex justify-end maxmd:justify-center items-center">
-            <ContactUsComponent contactDic={contactDic} />
-          </div>
+          <div className="w-full h-auto flex justify-end maxmd:justify-center items-center"></div>
         </div>
         {/* Info */}
         <div className="w-1/2 maxsm:mt-10 maxmd:w-full h-full text-base  flex items-center justify-end flex-col">
@@ -171,7 +169,7 @@ const ContactComponent = ({ contactDic }) => {
             <Link
               aria-label="WhatsApp"
               target="_blank"
-              href={"https://wa.me/12069799807"}
+              href={"https://wa.me/523323104474"}
               className="relative flex items-center justify-center group"
             >
               <span className="text-dark flex items-center justify-center gap-2">

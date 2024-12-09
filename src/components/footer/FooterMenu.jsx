@@ -12,7 +12,7 @@ const FooterMenu = ({ localeFooter, lang }) => {
     >
       <div className="flex maxsm:flex-col items-start justify-between gap-4 w-full px-3">
         <div className="font-secondary text-xs">
-          <WhiteLogoComponent lang={lang} />
+          <WhiteLogoComponent lang={lang} className={"bg-white p-2"} />
           <p className=" mt-2">{localeFooter.addressTwo.ubicacion}</p>
           <p className=" mt-2">{localeFooter.addressTwo.addressOne}</p>
           <p className="">

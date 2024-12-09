@@ -15,7 +15,7 @@ const DarkLightLogo = ({ className, lang }) => {
         />
         <Image
           alt="image"
-          src={"/logos/hudson_Intl_full_logo_white.webp"}
+          src={"/logos/Calcio TorrCALCIO_TORRE_round.pnge"}
           width={180}
           height={55}
           priority

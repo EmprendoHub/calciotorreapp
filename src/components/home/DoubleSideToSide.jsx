@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const DoubleSideToSide = ({ homeDic }) => {
   return (
-    <div className="w-full min-h-full my-10 bg-white dark:bg-primary ">
+    <div className="w-full min-h-full my-10 bg-white dark:bg-black ">
       {/* underhero */}
-      <div className="h-full py-8">
+      <div className="h-full pt-8">
         {/* Top Side */}
         <div className="h-full max-w-5xl mx-auto m-8">
           <div className="flex h-full maxmd:flex-col-reverse items-center justify-center">
@@ -33,8 +33,8 @@ const DoubleSideToSide = ({ homeDic }) => {
                 className={`relative mt-10 `}
               >
                 <Image
-                  className="object-cover rounded-full w-[25rem] h-[25rem] maxsm:w-[20rem] maxsm:h-[20rem] z-50"
-                  src="/images/importacion_de_condimentos.webp"
+                  className="object-cover w-[25rem] h-[25rem] maxsm:w-[20rem] maxsm:h-[20rem] z-50"
+                  src="/images/importacion_de_Limestones.webp"
                   alt="Diseño Gráfico Profesional"
                   width={550}
                   height={550}
@@ -54,7 +54,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                     stiffness: 260,
                     damping: 20,
                   }}
-                  className="circle rounded-full h-40 w-40 bg-dark"
+                  className="circle h-40 w-40 bg-dark"
                 />
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
@@ -65,7 +65,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                     stiffness: 260,
                     damping: 20,
                   }}
-                  className="circle-small my-20  maxmd:my-10 rounded-full h-14 w-14 dark:border-dark border-primary self-center border-[10px]"
+                  className="circle-small my-20  maxmd:my-10 h-14 w-14 dark:border-dark border-dark self-center border-[10px]"
                 />
               </div>
               <motion.h2
@@ -98,7 +98,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                   stiffness: 260,
                   damping: 20,
                 }}
-                className="circle mb-20 rounded-full h-20 w-20 bg-dark"
+                className="circle mb-20 h-20 w-20 bg-dark"
               />
               <motion.h2
                 initial={{ y: 50, opacity: 0 }}
@@ -130,11 +130,11 @@ const DoubleSideToSide = ({ homeDic }) => {
                 transition={{
                   duration: 1.1,
                 }}
-                className="relative w-full h-full rounded-full overflow-hidden"
+                className="relative w-full h-full overflow-hidden"
               >
                 <Image
-                  className="object-cover rounded-full w-[25rem] h-[25rem] maxsm:w-[20rem] maxsm:h-[20rem] z-50"
-                  src="/images/pexels-photo-3183197.jpeg"
+                  className="object-cover w-[25rem] h-[25rem] maxsm:w-[20rem] maxsm:h-[20rem] z-50"
+                  src="/images/Experiencia_comercial.webp"
                   alt="Diseño Gráfico Profesional"
                   width={850}
                   height={850}

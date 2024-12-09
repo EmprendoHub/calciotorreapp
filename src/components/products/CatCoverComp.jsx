@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import coverImage0 from "../../../public/images/cat_cover_productos_hudson_international.webp";
+import coverImage0 from "../../../public/images/carbonato-de-calcio.jpg";
 import coverChiles from "../../../public/images/chiles_cat_cover.webp";
 import coverNuts from "../../../public/images/dried_fruits_and_nuts_cat_cover.webp";
 import coverFlowers from "../../../public/images/flores_cat_cover.webp";
@@ -107,7 +107,7 @@ const CatCoverComp = ({ searchParams, lang, productDic }) => {
 
   return (
     <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
-      <div className="absolute bg-primary bg-opacity-40 w-full h-full z-0" />
+      <div className="absolute bg-black bg-opacity-40 w-full h-full z-0" />
       <Image
         src={coverImage}
         width={1920}

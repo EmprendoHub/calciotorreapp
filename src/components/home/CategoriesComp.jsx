@@ -5,7 +5,7 @@ import React from "react";
 
 const CategoriesComp = ({ categoryDic, lang }) => {
   return (
-    <div className="pt-5 px-40 maxxlg:px-20 maxlg:px-10 maxmd:px-5 maxmd:pt-1 mt-20">
+    <div className="pt-5 px-40 maxxlg:px-20 maxlg:px-10 maxmd:px-5 maxmd:pt-1 my-20">
       <div className="mx-auto">
         <SectionTitle
           className="pb-10 text-3xl maxmd:text-3xl text-center"
@@ -21,15 +21,15 @@ const CategoriesComp = ({ categoryDic, lang }) => {
             href={`${category.catPath}`}
             className="w-full cursor-pointer hover:scale-[105%] duration-300 ease-in-out "
           >
-            <div className="box relative mx-auto items-center justify-center flex text-center">
+            <div className="box relative mx-auto items-center justify-center flex text-center ">
               <Image
                 src={category.imgPath}
                 width={600}
                 height={600}
                 alt={category.title}
-                className="w-full h-[500px] maxxlg:h-[350px] object-cover "
+                className="w-full h-[500px] maxxlg:h-[350px] object-cover  "
               />
-              <span className="absolute rounded-full z-50 text-white uppercase py-2 px-8  maxmd:text-xl top-[40%]  font-primary tracking-wide">
+              <span className="absolute rounded-full z-10 text-white uppercase py-2 px-8  maxmd:text-xl top-[40%]  font-primary tracking-wide">
                 {category.title}
               </span>
               {/* overlay */}

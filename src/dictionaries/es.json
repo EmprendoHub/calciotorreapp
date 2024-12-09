@@ -1,9 +1,8 @@
 {
   "header": {
     "menu": [
-      { "title": "Inicio", "url": "/" },
-      { "title": "Acerca", "url": "/acerca" },
-      { "title": "Productos", "url": "/productos" },
+      { "title": "Acerca", "url": "/#about-us" },
+      { "title": "Productos", "url": "/#productos" },
       { "title": "Contacto", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -26,40 +25,35 @@
       "phone": "+52 353-246-4146"
     },
     "addressTwo": {
-      "ubicacion": "Washington",
+      "ubicacion": "Calle San José 115",
       "addressOne": "",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
+      "addressTwo": "colonia Los cajetes",
+      "city": "Zapopan",
       "hood": "",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
-      "phone": "+1 206 979 9807"
+      "state": "Jalisco",
+      "zip": "45234",
+      "country": "Mexico",
+      "phone": "+52 33 2310 4474",
+      "mapImage": "/images/hudson_map.webp",
+      "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
     },
     "widgettwo": {
       "title": "Productos",
       "links": [
-        { "title": "Chiles", "url": "/productos?keyword=chiles" },
-        { "title": "Especias", "url": "/productos?keyword=Especias" },
-        { "title": "Flores", "url": "/productos?keyword=Flores" },
         {
-          "title": "Nueces de temporada",
-          "url": "/productos?keyword=Nueces de temporada"
+          "title": "Carbonato de Calcio",
+          "url": "/productos?keyword=Carbonato"
         },
-        { "title": "Hierbas", "url": "/productos?keyword=Hierbas" },
-        {
-          "title": "Granos & Semillas",
-          "url": "/productos?keyword=Granos"
-        }
+        { "title": "Cal Agrícola", "url": "/productos?keyword=Cal" },
+        { "title": "Piedra Caliza", "url": "/productos?keyword=Caliza" }
       ]
     },
     "widgetthree": {
       "title": "Sitio",
       "links": [
-        { "title": "Inicio", "url": "/" },
         { "title": "Productos", "url": "/productos" },
         { "title": "Contacto", "url": "/#contacto" },
-        { "title": "Nosotros", "url": "/acerca" }
+        { "title": "Nosotros", "url": "/#about-us" }
       ]
     },
     "widgetfour": {
@@ -73,12 +67,12 @@
       "developBy": "Desarrollada por Emprendomex Marketing",
       "path": "https://www.emprendomex.xyz",
       "company": "Calcio Torre",
-      "addressOne": "",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
+      "addressOne": "Calle San José 115",
+      "addressTwo": "colonia Los cajetes",
+      "city": "Zapopan",
+      "state": "Jalisco",
+      "zip": "45234",
+      "country": "Mexico",
       "copyright": {
         "pretitle": "Derechos de autor",
         "subtitle": "Todos los derechos reservados.",
@@ -91,40 +85,40 @@
   },
   "homeDic": {
     "imageHero": {
-      "pretitle": "Expertos en comercio",
-      "title": "¡Bienvenido a nuestro ",
-      "titleTwo": "mundo de las especias!",
-      "text": "En Calcio Torre nos preocupamos por las especias. Nuestro viaje está impulsado por la pasión y la dedicación para brindarle lo mejor. Nos especializamos en facilitar el comercio de una amplia variedad de especias, hierbas, granos, semillas y frutos secos de alta calidad de fuentes confiables en todo el mundo. Desde deliciosas especias hasta ingredientes exóticos, lo tenemos cubierto. Únase a nosotros en esta aventura culinaria y exploremos juntos el mundo de los sabores. Bienvenido a nuestro mundo de especias.",
+      "pretitle": "Expertos desde hace más de 20 años.",
+      "title": "Tu Socio en ",
+      "titleTwo": "Materiales Minerales",
+      "text": "En Calcio Torre, nos dedicamos a la comercialización de carbonato de calcio, cal agrícola y piedra caliza, tres materiales fundamentales para múltiples sectores industriales y agrícolas. Con una sólida experiencia en el mercado, garantizamos productos de calidad superior que optimizan procesos productivos y aportan valor a nuestros clientes.",
       "btnText": "Aprende Más",
       "btnPath": "/about-us"
     },
     "sliders": [
       {
-        "preTitle": "Trading Experts",
-        "title": "Expande Tus",
-        "titleTwo": "Horizontes Comerciales",
-        "text": "Nos especializamos en especias y también obtenemos otros alimentos a pedido. Priorizamos la satisfacción del cliente y buscamos continuamente nuevos productos.",
-        "btnText": "Explorar Productos",
+        "preTitle": "Minerales de Confianza",
+        "title": "Optimiza Tus",
+        "titleTwo": "Procesos Industriales",
+        "text": "Especialistas en carbonato de calcio de alta calidad, ofrecemos soluciones adaptadas para mejorar la eficiencia y el rendimiento en sectores como construcción, plásticos y más.",
+        "btnText": "Descubre Más",
         "btnPath": "/es/productos",
-        "imgPath": "/images/dried-red-chili_seco.webp"
+        "imgPath": "/images/carbonato_calcio_industrial.webp"
       },
       {
-        "preTitle": "Productos de Calidad",
-        "title": "Red Global de",
-        "titleTwo": "Proveedores",
-        "text": "Ofrecemos productos de calidad a un valor justo de mercado a través de acuerdos que benefician a todas las partes. Nuestra amplia red de proveedores garantiza que usted reciba los productos que necesitas.",
+        "preTitle": "Soluciones Agrícolas",
+        "title": "Impulsa tu",
+        "titleTwo": "Productividad Agrícola",
+        "text": "Nuestra cal agrícola mejora la calidad del suelo, optimizando cultivos y maximizando rendimientos de forma sostenible.",
         "btnText": "Explorar Productos",
         "btnPath": "/es/productos",
-        "imgPath": "/images/condiment_spread.webp"
+        "imgPath": "/images/cal_agricola.webp"
       },
       {
-        "preTitle": "Socio Estratégico",
-        "title": "Transforme tu ",
-        "titleTwo": "experiencia comercial",
-        "text": "Ofrecemos enfoques estratégicos para ampliar su alcance en el mercado y mejorar sus operaciones comerciales a través de una coordinación experta y productos de alta calidad..",
-        "btnText": "Explorar Productos",
+        "preTitle": "Materiales Versátiles",
+        "title": "Construye con",
+        "titleTwo": "Confianza y Durabilidad",
+        "text": "La piedra caliza de Calcio Torre ofrece la base ideal para proyectos de construcción y aplicaciones decorativas, combinando calidad y resistencia.",
+        "btnText": "Conoce Más",
         "btnPath": "/es/productos",
-        "imgPath": "/images/black_pepper_spread.webp"
+        "imgPath": "/images/piedra_caliza_large.webp"
       }
     ],
     "infiniteSlider": {
@@ -147,7 +141,7 @@
         "title": "Transforma tu Experiencia Comercial con",
         "titleTwo": "Calcio Torre",
         "subtitle": "Nuestro equipo de expertos está listo para optimizar tu cadena de suministro",
-        "text": "Calcio Torre tiene su sede cerca de Seattle, Washington, en el noroeste del Pacífico de los Estados Unidos. atendiendo a nuestros clientes en toda América del Norte, América Latina, el Caribe, Asia y África. Nuestra cultivada red de proveedores y consumidores, junto con nuestra experiencia y conocimiento del mercado, nos permite negociar acuerdos que reflejan las fluctuaciones actuales del mercado. Nuestros principios rectores de Honestidad, Integridad y Confiabilidad nos permiten ser un mediador justo entre el consumidor y el proveedor. Nuestra filosofía es que en cada transacción debe haber un trato justo.",
+        "text": "Ubicados cerca de Zapopan, Jalisco, Calcio Torre ofrece productos de alta calidad que se ajustan a las demandas actuales del mercado. Gracias a nuestra experiencia y conocimiento, negociamos acuerdos justos que benefician a todas las partes, garantizando transacciones transparentes y alineadas con las fluctuaciones del mercado. Nuestro compromiso es proporcionar un trato justo en cada operación, estableciendo un equilibrio entre las necesidades del consumidor y las capacidades del proveedor.",
         "btnText": "Contáctanos",
         "imgUrl": "/images/h1-img2.jpg"
       },
@@ -156,7 +150,7 @@
         "title": "Nos adaptamos según las",
         "titleTwo": "necesidades de tu empresa",
         "subtitle": "Preparados para cualquier desafío, asegurando personalización y adaptabilidad.",
-        "text": "Calcio Torre opera como corredor en el comercio de especias y otros ingredientes alimentarios. Nuestro éxito se basa en nuestra capacidad para escuchar las necesidades de nuestros clientes y obtener los productos que necesitan. Con más de 20 años de experiencia en el comercio mundial de especias, suministro de ingredientes alimentarios e intercambio de condimentos, hemos construido nuestro negocio creando relaciones a largo plazo basadas en la confianza y la satisfacción del cliente. Nuestra cultivada red de proveedores y consumidores, junto con nuestra experiencia y conocimiento del mercado, nos permite negociar acuerdos que reflejan las fluctuaciones actuales del mercado.",
+        "text": "En Calcio Torre, nuestra fortaleza radica en la capacidad de entender las necesidades de nuestros clientes y ofrecer soluciones a través de una gama de minerales esenciales, como carbonato de calcio, cal agrícola, y piedra caliza. Con más de 20 años de experiencia en el comercio internacional, hemos desarrollado una sólida red de socios confiables. Nuestra filosofía se basa en construir relaciones duraderas con clientes y proveedores, siempre guiados por los principios de honestidad, integridad y confiabilidad.",
         "btnText": "Contáctanos",
         "imgUrl": "/images/pexels-photo-3183197.jpeg"
       }
@@ -179,7 +173,6 @@
         "Garantía de Calidad",
         "Optimización de la Cadena de Suministro",
         "Soluciones Comerciales Personalizadas",
-        "Red Global de Proveedores",
         "Coordinación Experta"
       ]
     },
@@ -243,9 +236,9 @@
     }
   },
   "productDic": {
-    "preTitle": "COMERCIO INTERNACIONAL",
-    "title": "Granos, Hierbas, ",
-    "titleTwo": "Especias & Condimentos",
+    "preTitle": "COMERCIO DE MINERALES",
+    "title": "Carbonato de Calcio, Cal Agrícola &",
+    "titleTwo": "Piedra Caliza",
     "single": {
       "packing": "Empaquetado",
       "weight": "Peso",
@@ -270,39 +263,24 @@
     ]
   },
   "categoryDic": {
-    "title": "Especias, Semillas &",
-    "titleTwo": "Nueces de Temporada",
-    "text": "¡Te traemos los sabores del mundo!",
+    "title": "Carbonato de Calcio, Cal Agrícola &",
+    "titleTwo": "Piedra Caliza",
+    "text": "Descubre nuestra gama de productos minerales: carbonato de calcio, cal agrícola, y piedra caliza, diseñados para optimizar procesos en industrias como la construcción, la agricultura y la fabricación. Cada uno de nuestros productos se adapta a tus necesidades, garantizando calidad, rendimiento y sostenibilidad en cada aplicación.",
     "categories": [
       {
-        "title": "Chiles",
-        "catPath": "/es/productos?keyword=Chiles",
-        "imgPath": "/images/chiles.webp"
+        "title": "Carbonato de Calcio",
+        "catPath": "/es/productos?keyword=Carbonato",
+        "imgPath": "/images/piedra_caliza.webp"
       },
       {
-        "title": "Nueces de Temporada",
-        "catPath": "/es/productos?keyword=Nueces de temporada",
-        "imgPath": "/images/nuts.webp"
+        "title": "Cal Agrícola",
+        "catPath": "/es/productos?keyword=Cal",
+        "imgPath": "/images/agricultural_lime.webp"
       },
       {
-        "title": "Especias",
-        "catPath": "/es/productos?keyword=Especias",
-        "imgPath": "/images/especias.webp"
-      },
-      {
-        "title": "Flowers",
-        "catPath": "/es/productos?keyword=Flowers",
-        "imgPath": "/images/flowers.webp"
-      },
-      {
-        "title": "Granos & Semillas",
-        "catPath": "/es/productos?keyword=Granos",
-        "imgPath": "/images/grains.webp"
-      },
-      {
-        "title": "Hierbas",
-        "catPath": "/es/productos?keyword=Hierbas",
-        "imgPath": "/images/hierbas.webp"
+        "title": "Piedra Caliza",
+        "catPath": "/es/productos?keyword=Caliza",
+        "imgPath": "/images/limestone.webp"
       }
     ]
   },
@@ -424,17 +402,17 @@
       "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
     },
     "addressTwo": {
-      "ubicacion": "Washington",
+      "ubicacion": "Calle San José 115",
       "addressOne": "",
-      "addressTwo": "",
-      "city": "Bainbridge Island",
+      "addressTwo": "colonia Los cajetes",
+      "city": "Zapopan",
       "hood": "",
-      "state": "Washington",
-      "zip": "92806",
-      "country": "USA",
-      "phone": "+1 206 979 9807",
-      "mapImage": "/images/hudson_map.webp",
-      "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
+      "state": "Jalisco",
+      "zip": "45234",
+      "country": "Mexico",
+      "phone": "+52 33 2310 4474",
+      "mapImage": "/images/Colima61_.webp",
+      "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
     },
     "contactForm": {
       "placeName": "Tu Nombre Aquí",

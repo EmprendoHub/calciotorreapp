@@ -24,7 +24,7 @@ const ThemeToggleVertical = ({ className }) => {
 
   return (
     <div
-      className={`fixed z-[666] w-4 h-12 right-0 top-1/2 flex flex-col justify-between items-center dark:bg-dark bg-primary cursor-pointer rounded-full p-1 ${className}`}
+      className={`fixed z-[666] w-4 h-12 right-0 top-1/2 flex flex-col justify-between items-center dark:bg-dark bg-black cursor-pointer rounded-full p-1 ${className}`}
       onClick={() => setDarkMode(!darkMode)}
     >
       <FaMoon className="text-white" size={9} />

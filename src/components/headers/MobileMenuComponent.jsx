@@ -70,7 +70,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed flex items-center justify-center flex-col left-0 top-0 w-full min-h-screen bg-primary dark:bg-dark px-10 pt-2 z-[50] origin-top"
+            className="fixed flex items-center justify-center flex-col left-0 top-0 w-full min-h-screen bg-primary dark:bg-dark px-10 pt-2 z-[999] origin-top"
           >
             <p
               onClick={toggleMobileMenu}
@@ -109,7 +109,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                   aria-label="Facebook"
                   target="_blank"
                   href={
-                    "https://www.facebook.com/Hudson-International-Market-100649958963881"
+                    "https://www.facebook.com/profile.php?id=100064426654239"
                   }
                   className="relative flex items-center justify-center group"
                 >
@@ -136,7 +136,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                   <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* LinkedIn */}
-                <Link
+                {/* <Link
                   aria-label="LinkedIn"
                   target="_blank"
                   href={
@@ -165,12 +165,12 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                     </g>
                   </svg>
                   <FaLinkedin className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
-                </Link>
+                </Link> */}
                 {/* WhatsApp */}
                 <Link
                   aria-label="WhatsApp"
                   target="_blank"
-                  href={"https://wa.me/12069799807"}
+                  href={"https://wa.me/523323104474"}
                   className="relative flex items-center justify-center group"
                 >
                   <svg className={`${styles.circle}`}>

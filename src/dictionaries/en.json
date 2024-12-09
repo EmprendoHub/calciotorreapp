@@ -1,9 +1,8 @@
 {
   "header": {
     "menu": [
-      { "title": "Home", "url": "/" },
-      { "title": "About", "url": "/acerca" },
-      { "title": "Products", "url": "/productos" },
+      { "title": "About", "url": "/#about-us" },
+      { "title": "Products", "url": "/#productos" },
       { "title": "Contact", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -26,31 +25,27 @@
       "phone": "+52 353-246-4146"
     },
     "addressTwo": {
-      "ubicacion": "Washington",
+      "ubicacion": "Calle San José 115",
       "addressOne": "",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
+      "addressTwo": "colonia Los cajetes",
+      "city": "Zapopan",
       "hood": "",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
-      "phone": "+1 206 979 9807"
+      "state": "Jalisco",
+      "zip": "45234",
+      "country": "Mexico",
+      "phone": "+52 33 2310 4474",
+      "mapImage": "/images/Colima61_.webp",
+      "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
     },
     "widgettwo": {
       "title": "Products",
       "links": [
-        { "title": "Chilies", "url": "/productos?keyword=chiles" },
-        { "title": "Spices", "url": "/productos?keyword=Spices" },
-        { "title": "Flowers", "url": "/productos?keyword=Flowers" },
+        { "title": "Calcium Carbonate", "url": "/productos?keyword=Carbonato" },
         {
-          "title": "Seasonal Nuts",
-          "url": "/productos?keyword=Seasonal Nuts"
+          "title": "Agricultural Lime",
+          "url": "/productos?keyword=Cal"
         },
-        { "title": "Herbs", "url": "/productos?keyword=Herbs" },
-        {
-          "title": "Grains and Seeds",
-          "url": "/productos?keyword=Grains and Seeds"
-        }
+        { "title": "Limestone", "url": "/productos?keyword=Caliza" }
       ]
     },
     "widgetthree": {
@@ -73,12 +68,12 @@
       "developBy": "Developed by Emprendomex Marketing",
       "path": "https://www.emprendomex.xyz",
       "company": "Calcio Torre",
-      "addressOne": ",",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
+      "addressOne": "Calle San José 115",
+      "addressTwo": "colonia Los cajetes",
+      "city": "Zapopan",
+      "state": "Jalisco",
+      "zip": "45234",
+      "country": "Mexico",
       "copyright": {
         "pretitle": "Copyright",
         "subtitle": "All rights reserved.",
@@ -91,40 +86,40 @@
   },
   "homeDic": {
     "imageHero": {
-      "pretitle": "Trading Experts",
-      "title": "Welcome to our ",
-      "titleTwo": "spice world!",
-      "text": "At Calcio Torre we are all about spices. Our journey is fueled by passion and dedication in bringing you the best. We specialize in facilitating the trade of a wide variety of high-quality spices, herbs, grains, seeds and dried fruits from reliable sources around the world. From mouth-watering spices to exotic ingredients, we've got you covered. Join us on this culinary adventure and let's explore the world of flavors together. Welcome to our spice world",
+      "pretitle": "Experts for more than 20 years",
+      "title": "Your Partner in ",
+      "titleTwo": "Mineral Materials",
+      "text": "At Calcio Torre, we are dedicated to the marketing of calcium carbonate, agricultural lime and limestone, three essential materials for multiple industrial and agricultural sectors. With solid experience in the market, we guarantee top quality products that optimize production processes and add value to our customers.",
       "btnText": "Learn More",
-      "btnPath": "/about-us"
+      "btnPath": "/en/#about-us"
     },
     "sliders": [
       {
-        "preTitle": "Trading Experts",
-        "title": "Expand Your",
-        "titleTwo": "Business Horizons",
-        "text": "We specialize in spices and also source other food items upon request. We prioritize client satisfaction and continually search new products.",
-        "btnText": "Explore Products",
+        "preTitle": "Minerals of Confidence",
+        "title": "Optimize Your",
+        "titleTwo": "Industrial Processes",
+        "text": "Specialists in high-quality calcium carbonate, we offer tailored solutions to improve efficiency and performance in sectors such as construction, plastics and more.",
+        "btnText": "Discover More",
         "btnPath": "/en/productos",
-        "imgPath": "/images/dried-red-chili_seco.webp"
+        "imgPath": "/images/carbonato_calcio_industrial.webp"
       },
       {
-        "preTitle": "Quality Products",
-        "title": "Global Supplier",
-        "titleTwo": "Network",
-        "text": "We offer quality products at fair market value through agreements that benefit all parties. Our extensive network of suppliers ensures that you receive the products you need.",
+        "preTitle": "Agricultural Solutions",
+        "title": "Boost your ",
+        "titleTwo": "agricultural productivity",
+        "text": "Our agricultural lime improves soil quality, optimizing crops and maximizing yields in a sustainable way.",
         "btnText": "Explore Products",
         "btnPath": "/en/productos",
-        "imgPath": "/images/condiment_spread.webp"
+        "imgPath": "/images/cal_agricola.webp"
       },
       {
-        "preTitle": "Strategic Partner",
-        "title": "Transform Your ",
-        "titleTwo": "Trading Experience",
-        "text": "We offer strategic approaches to expand your market reach and improve your business operations through expert coordination and high-quality products.",
+        "preTitle": "Versatile Materials",
+        "title": "Build with",
+        "titleTwo": "Confidence and Durability",
+        "text": "Calcio Torre limestone offers the ideal base for construction projects and decorative applications, combining quality and resistance.",
         "btnText": "Explore Products",
         "btnPath": "/en/productos",
-        "imgPath": "/images/black_pepper_spread.webp"
+        "imgPath": "/images/piedra_caliza_large.webp"
       }
     ],
     "infiniteSlider": {
@@ -147,7 +142,7 @@
         "title": "Transform Your Trading Experience with",
         "titleTwo": "Calcio Torre",
         "subtitle": "Our team of experts is ready to help optimize your supply chain",
-        "text": "Calcio Torre is headquartered near Seattle, Washington in the Pacific Northwest of the United States, attending our clients throughout North America, Latin America, the Caribbean, Asia and Africa. Our cultivated network of suppliers and consumers, along with our experience and market knowledge, allows us to negotiate deals that reflect current market fluctuations. Our guiding principles of Honesty, Integrity and Reliability allow us to be a fair mediator between the consumer and supplier. It is our philosophy that with every trade there should be a fair deal.",
+        "text": "Located near Zapopan, Jalisco, Calcio Torre offers high-quality products that meet current market demands. Thanks to our experience and knowledge, we negotiate fair agreements that benefit all parties, guaranteeing transparent transactions aligned with market fluctuations. Our commitment is to provide fair treatment in each transaction, establishing a balance between consumer needs and supplier capabilities.",
         "btnText": "Contact Us",
         "imgUrl": "/images/h1-img2.jpg"
       },
@@ -156,7 +151,7 @@
         "title": "We adapt based on your",
         "titleTwo": "business needs",
         "subtitle": "Prepared for any challenge, ensuring customization and adaptability.",
-        "text": "Calcio Torre operates as a broker in the trade of spices and other food ingredients. Our success is based on our ability to listen to our client's needs and sourcing the goods they require. With over 20 years of experience in the global spice trade, food ingredient supply, and condiment exchange, we have built our business by creating long term relationships that are based on trust and client satisfaction. Our cultivated network of suppliers and consumers, along with our experience and market knowledge, allows us to negotiate deals that reflect current market fluctuations.",
+        "text": "At Calcio Torre, our strength lies in the ability to understand our customers' needs and offer solutions across a range of essential minerals, such as calcium carbonate, agricultural lime, and limestone. With over 20 years of experience in international trade, we have developed a solid network of reliable partners. Our philosophy is based on building long-lasting relationships with customers and suppliers, always guided by the principles of honesty, integrity and reliability.",
         "btnText": "Contact Us",
         "imgUrl": "/images/pexels-photo-3183197.jpeg"
       }
@@ -179,7 +174,6 @@
         "Quality Assurance",
         "Supply Chain Optimization",
         "Customized Trading Solutions",
-        "Global Network of Suppliers",
         "Expert Coordination"
       ]
     },
@@ -244,8 +238,8 @@
   },
   "productDic": {
     "preTitle": "INTERNATIONAL TRADE",
-    "title": "Grains, Seeds, ",
-    "titleTwo": "Spices & Condiments",
+    "title": "Calcium Carbonate, Agricultural Lime &",
+    "titleTwo": " Limestone",
     "single": {
       "packing": "Packing",
       "weight": "Weight",
@@ -270,39 +264,24 @@
     ]
   },
   "categoryDic": {
-    "title": "Spices, Seeds & ",
-    "titleTwo": "Seasonal Nuts",
-    "text": "We bring you the flavors of the world!",
+    "title": "Calcium Carbonate, Agricultural Lime &",
+    "titleTwo": " Limestone",
+    "text": "Discover our range of mineral products: calcium carbonate, agricultural lime, and limestone, designed to optimize processes in industries such as construction, agriculture and manufacturing. Each of our products is tailored to your needs, ensuring quality, performance and sustainability in every application.",
     "categories": [
       {
-        "title": "Chilies",
+        "title": "Calcium Carbonate",
         "catPath": "/en/productos?keyword=Chilies",
-        "imgPath": "/images/chiles.webp"
+        "imgPath": "/images/piedra_caliza.webp"
       },
       {
-        "title": "Seasonal Nuts",
+        "title": "Agricultural Lime",
         "catPath": "/en/productos?keyword=Seasonal Nuts",
-        "imgPath": "/images/nuts.webp"
+        "imgPath": "/images/agricultural_lime.webp"
       },
       {
-        "title": "Spices",
+        "title": "Limestone",
         "catPath": "/en/productos?keyword=Spices",
-        "imgPath": "/images/especias.webp"
-      },
-      {
-        "title": "Flowers",
-        "catPath": "/en/productos?keyword=Flowers",
-        "imgPath": "/images/flowers.webp"
-      },
-      {
-        "title": "Grains & Seeds",
-        "catPath": "/en/productos?keyword=grains",
-        "imgPath": "/images/grains.webp"
-      },
-      {
-        "title": "Herbs",
-        "catPath": "/en/productos?keyword=Herbs",
-        "imgPath": "/images/hierbas.webp"
+        "imgPath": "/images/limestone.webp"
       }
     ]
   },
@@ -425,15 +404,15 @@
       "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
     },
     "addressTwo": {
-      "ubicacion": "Washington",
+      "ubicacion": "Calle San José 115",
       "addressOne": "",
-      "addressTwo": "Suite D3",
-      "city": "Bainbridge Island",
+      "addressTwo": "colonia Los cajetes",
+      "city": "Zapopan",
       "hood": "",
-      "state": "Washington",
-      "zip": "98110",
-      "country": "USA",
-      "phone": "+1 206 979 9807",
+      "state": "Jalisco",
+      "zip": "45234",
+      "country": "Mexico",
+      "phone": "+52 33 2310 4474",
       "mapImage": "/images/hudson_map.webp",
       "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
     },

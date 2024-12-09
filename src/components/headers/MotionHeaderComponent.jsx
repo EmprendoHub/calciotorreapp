@@ -61,8 +61,8 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
           variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
           animate={hidden ? "hidden" : "visible"}
           transition={{ duration: 0.35, ease: "easeInOut" }}
-          className={`print:hidden flex flex-row items-center justify-between  header-class text-white  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 pl-4 h-[80px] ${
-            !transparency ? "" : "bg-primary bg-opacity-50"
+          className={`px-40 print:hidden flex flex-row items-center justify-between  header-class text-black  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 h-[80px] ${
+            !transparency ? "bg-white" : "bg-white bg-opacity-90"
           }`}
         >
           <WhiteLogoComponent lang={lang} />
@@ -91,10 +91,6 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
               lang={lang}
               localeHeader={localeHeader}
             />
-
-            <span className="pr-4 text-sm relative z-10">
-              <LocaleToggleFlags />
-            </span>
           </div>
         </motion.nav>
       ) : (

@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const SingleSideToSide = ({ homeDic, flipBoxes }) => {
   return (
-    <div className="w-full pt-10 maxmd:pt-0 bg-white dark:bg-primary px-32 maxxlg:px-10 maxlg:px-5 maxmd:px-3 ">
+    <div className="w-full pt-10 maxmd:pt-0 bg-white dark:bg-black px-32 maxxlg:px-10 maxlg:px-5 maxmd:px-3 ">
       {/* underhero */}
 
       <section className=" py-8">
@@ -25,11 +25,11 @@ const SingleSideToSide = ({ homeDic, flipBoxes }) => {
                 <span className=" text-dark">
                   {homeDic.singlesides.boxOne.title}{" "}
                 </span>
-                <span className="text-primary dark:text-white">
+                <span className="text-black dark:text-white">
                   {homeDic.singlesides.boxOne.titleTwo}
                 </span>
               </motion.h2>
-              <div className="text-primary dark:text-white font-secondary text-sm mb-3  maxmd:text-sm flex flex-col gap-3">
+              <div className="text-black dark:text-white font-secondary text-sm mb-3  maxmd:text-sm flex flex-col gap-3">
                 <motion.p
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}

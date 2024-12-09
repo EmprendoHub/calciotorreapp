@@ -2,7 +2,7 @@ export default function ModalButton(props) {
   const { type = "button", children, onClick, className = "" } = props;
   return (
     <button
-      className={`bg-primary hover:bg-primary-light text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${className}`}
+      className={`bg-black hover:bg-black-light text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ${className}`}
       type={type}
       onClick={onClick}
     >

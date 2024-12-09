@@ -36,7 +36,7 @@ const DropShippingComp = ({ dropshippingDic, lang }) => {
             </p>
             <h2 className="text-4xl  font-primary leading-none mb-3">
               <span>{dropshippingDic?.title} </span>
-              <span className="text-primary">{dropshippingDic?.titleTwo}</span>
+              <span className="text-black">{dropshippingDic?.titleTwo}</span>
             </h2>
             <p className=" text-[16px] leading-tight font-secondary">
               {dropshippingDic?.subtitle}
@@ -57,9 +57,7 @@ const DropShippingComp = ({ dropshippingDic, lang }) => {
         >
           <h2 className="text-4xl text-center font-primary leading-none ">
             <span>{dropshippingDic?.what.title} </span>
-            <span className="text-primary">
-              {dropshippingDic?.what.titleTwo}
-            </span>
+            <span className="text-black">{dropshippingDic?.what.titleTwo}</span>
           </h2>
           <p className="text-gray-800 text-center dark:text-gray-300 font-secondary text-sm mb-8  maxmd:text-sm">
             {dropshippingDic.what.subtitle}
@@ -70,7 +68,7 @@ const DropShippingComp = ({ dropshippingDic, lang }) => {
                 <article key={step._id} className=" w-40 maxsm:w-36">
                   <div className="flex relative  gap-3 items-center justify-center">
                     <div className="text-center flex-col flex items-center gap-3 pr-5">
-                      <div className="flex items-center justify-center w-5 h-5 uppercase bg-primary rounded-full p-4 text-sm ">
+                      <div className="flex items-center justify-center w-5 h-5 uppercase bg-black rounded-full p-4 text-sm ">
                         {step?.pretitle}
                       </div>
                       <Image
@@ -82,7 +80,7 @@ const DropShippingComp = ({ dropshippingDic, lang }) => {
                       />
                       <h3 className="text-sm font-secondary leading-tight mb-1 ">
                         <span>{step.title} </span>
-                        <span className="text-primary">{step.titleTwo}</span>
+                        <span className="text-black">{step.titleTwo}</span>
                       </h3>
                     </div>
 
@@ -159,7 +157,7 @@ const DropShippingComp = ({ dropshippingDic, lang }) => {
             </p>
             <h2 className="text-4xl  font-primary leading-none mb-3">
               <span>{dropshippingDic?.why.title} </span>
-              <span className="text-primary">
+              <span className="text-black">
                 {dropshippingDic?.why.titleTwo}
               </span>
             </h2>
@@ -180,7 +178,7 @@ const DropShippingComp = ({ dropshippingDic, lang }) => {
         <div className="flex relative flex-col gap-5 items-center justify-center px-10 maxmd:px-5 my-20">
           <h2 className="text-4xl text-center font-primary leading-none ">
             <span>{dropshippingDic?.features.title} </span>
-            <span className="text-primary">
+            <span className="text-black">
               {dropshippingDic?.features.titleTwo}
             </span>
           </h2>

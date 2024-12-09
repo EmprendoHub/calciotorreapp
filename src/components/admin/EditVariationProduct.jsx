@@ -437,7 +437,7 @@ const EditVariationProduct = ({ product, currentCookies, lang }) => {
             <LocaleToggle />
             <button
               type="submit"
-              className="bg-primary rounded-full text-white px-6 py-2"
+              className="bg-black rounded-full text-white px-6 py-2"
             >
               Publicar
             </button>

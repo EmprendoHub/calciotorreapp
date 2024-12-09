@@ -9,7 +9,7 @@ const ContactInner = ({ homeDic, contactDic }) => {
   return (
     <div className="relative h-full  overflow-x-hidden" id="contacto">
       <div className="w-full h-[300px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
-        <div className="absolute bg-primary bg-opacity-40 w-full h-full z-0" />
+        <div className="absolute bg-black bg-opacity-40 w-full h-full z-0" />
         <Image
           src={coverImage}
           width={1920}

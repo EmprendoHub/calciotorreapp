@@ -29,7 +29,7 @@ const TopBar = ({ session, lang }) => {
                   height={50}
                 />
               ) : (
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center uppercase text-xl font-primary">
+                <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center uppercase text-xl font-primary">
                   {session?.user?.email.substring(0, 1)}
                 </div>
               )}
@@ -47,7 +47,7 @@ const TopBar = ({ session, lang }) => {
                   height={50}
                 />
               ) : (
-                <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center uppercase text-xl font-primary">
+                <div className="w-8 h-8 rounded-full bg-black text-white flex items-center justify-center uppercase text-xl font-primary">
                   {session?.user?.email.substring(0, 1)}
                 </div>
               )}

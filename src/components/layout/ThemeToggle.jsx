@@ -24,7 +24,7 @@ const ThemeToggle = ({ className }) => {
 
   return (
     <div
-      className={`relative w-12 h-5 flex items-center dark:bg-primary bg-dark cursor-pointer rounded-full p-1 ${className}`}
+      className={`relative w-12 h-5 flex items-center dark:bg-black bg-dark cursor-pointer rounded-full p-1 ${className}`}
       onClick={() => setDarkMode(!darkMode)}
     >
       <FaMoon className="text-white" size={18} />

@@ -144,7 +144,7 @@ const SubscribeForm = ({ cookie, homeDic }) => {
           </button>
         </form>
       ) : (
-        <div className="text-primary text-xs">
+        <div className="text-black text-xs">
           {homeDic.contactCta.messageSent}
         </div>
       )}

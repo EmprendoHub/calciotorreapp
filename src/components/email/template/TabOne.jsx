@@ -190,7 +190,7 @@ export default function TabOne() {
         <div>
           <button
             onClick={handleSubmit}
-            className="py-3 px-5 mt-5 text-sm font-medium text-center text-white bg-black rounded-lg bg-primary-700 sm:w-fit  focus:ring-4 focus:outline-none focus:ring-primary-300"
+            className="py-3 px-5 mt-5 text-sm font-medium text-center text-white bg-black rounded-lg bg-black-700 sm:w-fit  focus:ring-4 focus:outline-none focus:ring-primary-300"
           >
             Enviar Mensajes
           </button>
