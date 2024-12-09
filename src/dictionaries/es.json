@@ -299,38 +299,38 @@
       "imgTwo": "/images/beach_bonus.jpg",
       "btnText": "Ver Productos",
       "btnLink": "/es/productos",
-      "icon": "FaPepperHot"
+      "icon": "FaGg"
     },
     {
       "bgColor": "blue",
       "bgColorTwo": "blue",
       "preTitle": "Transparencia",
-      "title": "Adaptabilidad cultural",
-      "titleTwo": "Apoyando Comunidades",
+      "title": "Adaptabilidad",
+      "titleTwo": "Certificación",
       "subTitle": "Mejora tus Operaciones",
-      "text": "Comprender y respetar las diferencias culturales es esencial para una negociación exitosa en un entorno internacional.",
-      "textTwo": "Mantener altos estándares éticos y una comunicación abierta y honesta con todas las partes interesadas ayuda a construir una sólida y reputación confiable en el mercado internacional.",
+      "text": "Comprender y respetar las necesidades individuales es esencial para una negociación exitosa en un entorno regional.",
+      "textTwo": "Mantener altos estándares éticos y construir una sólida  reputación confiable en el mercado regional.",
       "img": "/images/GTI-interior.jpeg",
       "imgTwo": "/images/GTI-interior.jpeg",
       "btnText": "Ver Productos",
       "btnLink": "/es/productos",
-      "icon": "FaAward"
+      "icon": "FaBoxesPacking"
     },
     {
       "bgColor": "purple",
       "bgColorTwo": "purple",
       "preTitle": "¡Código Personalizado!",
-      "title": "Comercio mundial",
+      "title": "Comercio Minerales",
       "titleTwo": "¡Escala con Confianza!",
       "subTitle": "Soluciones Personalizadas",
       "textTitle": "BIOGRAFÍA",
       "text": "Innovando y mejorando continuamente nuestros procesos.",
-      "textTwo": "Listos para satisfacer las necesidades cambiantes del mercado global.",
+      "textTwo": "Listos para satisfacer las necesidades cambiantes del mercado regional.",
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
       "btnText": "Ver Productos",
       "btnLink": "/es/productos",
-      "icon": "FaGlobe"
+      "icon": "FaCubesStacked"
     }
   ],
   "aboutDic": {
