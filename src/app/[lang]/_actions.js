@@ -1779,7 +1779,7 @@ export async function requestContact(data) {
 
       const recipient_email = email;
       const sender_email = "calciotorre01@gmail.com";
-      const fromName = "Calcio Torres";
+      const fromName = "Calcio Torre";
 
       const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",

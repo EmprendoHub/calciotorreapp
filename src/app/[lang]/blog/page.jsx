@@ -5,7 +5,7 @@ import { getAllPost } from "../_actions";
 import { getDictionary } from "@/lib/dictionary";
 
 export const metadata = {
-  title: "Blog Calcio Torres",
+  title: "Blog Calcio Torre",
   description: "Expertos en Desarrollo web y marketing integral.",
 };
 

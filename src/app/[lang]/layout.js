@@ -14,11 +14,11 @@ import ThemeToggleVertical from "@/components/layout/ThemeToggleVertical";
 export const metadata = {
   manifest: "/manifest.json",
   metadataBase: new URL("https://www.calciotorre.com.mx"),
-  title: "Calcio Torres",
+  title: "Calcio Torre",
   description:
     "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
   openGraph: {
-    title: "Calcio Torres",
+    title: "Calcio Torre",
     description:
       "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
     image: "url/opengraph-image.png",
@@ -26,7 +26,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@calciotorre",
-    title: "Calcio Torres",
+    title: "Calcio Torre",
     description:
       "Comercio Internacional de Granos, Hierbas, Especias y Condimentos",
     image: "url/opengraph-image.png",
