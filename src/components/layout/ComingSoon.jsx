@@ -7,8 +7,8 @@ const ComingSoon = () => {
       <Image
         alt={"Calcio Torre"}
         src={"/logos/calciotorrelogo.jpg"}
-        width={500}
-        height={500}
+        width={250}
+        height={250}
       />
     </div>
   );
