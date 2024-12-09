@@ -99,7 +99,7 @@
         "titleTwo": "Procesos Industriales",
         "text": "Especialistas en carbonato de calcio de alta calidad, ofrecemos soluciones adaptadas para mejorar la eficiencia y el rendimiento en sectores como construcción, plásticos y más.",
         "btnText": "Descubre Más",
-        "btnPath": "/es/productos",
+        "btnPath": "/es/#productos",
         "imgPath": "/images/carbonato_calcio_industrial.webp"
       },
       {
@@ -108,7 +108,7 @@
         "titleTwo": "Productividad Agrícola",
         "text": "Nuestra cal agrícola mejora la calidad del suelo, optimizando cultivos y maximizando rendimientos de forma sostenible.",
         "btnText": "Explorar Productos",
-        "btnPath": "/es/productos",
+        "btnPath": "/es/#productos",
         "imgPath": "/images/cal_agricola.webp"
       },
       {
@@ -117,7 +117,7 @@
         "titleTwo": "Confianza y Durabilidad",
         "text": "La piedra caliza de Calcio Torre ofrece la base ideal para proyectos de construcción y aplicaciones decorativas, combinando calidad y resistencia.",
         "btnText": "Conoce Más",
-        "btnPath": "/es/productos",
+        "btnPath": "/es/#productos",
         "imgPath": "/images/piedra_caliza_large.webp"
       }
     ],
@@ -269,17 +269,17 @@
     "categories": [
       {
         "title": "Carbonato de Calcio",
-        "catPath": "/es/productos?keyword=Carbonato",
+        "catPath": "/es/#productos?keyword=Carbonato",
         "imgPath": "/images/piedra_caliza.webp"
       },
       {
         "title": "Cal Agrícola",
-        "catPath": "/es/productos?keyword=Cal",
+        "catPath": "/es/#productos?keyword=Cal",
         "imgPath": "/images/agricultural_lime.webp"
       },
       {
         "title": "Piedra Caliza",
-        "catPath": "/es/productos?keyword=Caliza",
+        "catPath": "/es/#productos?keyword=Caliza",
         "imgPath": "/images/limestone.webp"
       }
     ]
@@ -298,7 +298,7 @@
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
       "btnText": "Ver Productos",
-      "btnLink": "/es/productos",
+      "btnLink": "/es/#productos",
       "icon": "FaGg"
     },
     {
@@ -313,7 +313,7 @@
       "img": "/images/GTI-interior.jpeg",
       "imgTwo": "/images/GTI-interior.jpeg",
       "btnText": "Ver Productos",
-      "btnLink": "/es/productos",
+      "btnLink": "/es/#productos",
       "icon": "FaBoxesPacking"
     },
     {
@@ -329,7 +329,7 @@
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
       "btnText": "Ver Productos",
-      "btnLink": "/es/productos",
+      "btnLink": "/es/#productos",
       "icon": "FaCubesStacked"
     }
   ],
