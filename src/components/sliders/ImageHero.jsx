@@ -7,7 +7,7 @@ const ImageHero = ({ homeDic }) => {
     <div className=" bg-gradient-to-b from-red-700 to-red-500  dark:bg-black">
       <div className="w-full h-[800px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
         {/* overlay */}
-        <div className="absolute bg-black bg-opacity-20 maxmd:bg-opacity-40 dark:bg-opacity-20 w-full h-full z-0" />
+        <div className="absolute bg-black bg-opacity-20 dark:bg-opacity-20 w-full h-full z-0" />
 
         <Image
           src={coverImage}
@@ -18,7 +18,7 @@ const ImageHero = ({ homeDic }) => {
           alt="portfolio image"
           className="object-cover h-full w-full"
         />
-        <div className="absolute top-40 right-20 maxlg:right-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[45%] maxsm:w-[90%] maxlg:w-[50%]">
+        <div className="absolute top-40 maxsm:top-20 right-20 maxlg:right-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[45%] maxsm:w-[90%] maxlg:w-[50%]">
           <h2 className="font-primary leading-none mb-3">
             <span className="text-black dark:text-white">
               {homeDic.imageHero.title}{" "}
