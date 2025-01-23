@@ -54,7 +54,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                     stiffness: 260,
                     damping: 20,
                   }}
-                  className="circle h-40 w-40 bg-dark"
+                  className="circle h-40 w-40 bg-main-gradient"
                 />
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
@@ -65,7 +65,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                     stiffness: 260,
                     damping: 20,
                   }}
-                  className="circle-small my-20  maxmd:my-10 h-14 w-14 dark:border-dark border-dark self-center border-[10px]"
+                  className="circle-small my-20  maxmd:my-10 h-14 w-14 dark:border-dark border-primary self-center border-[10px]"
                 />
               </div>
               <motion.h2
@@ -77,7 +77,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                 className="text-5xl maxmd:text-3xl text-gray-800 dark:text-gray-300 font-primary leading-none mb-3 w-[90%] h-full"
               >
                 <span>{homeDic.doublesides.boxTwo.title} </span>
-                <span className="text-dark">
+                <span className="text-main-gradient">
                   {homeDic.doublesides.boxTwo.titleTwo}
                 </span>
               </motion.h2>
@@ -98,7 +98,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                   stiffness: 260,
                   damping: 20,
                 }}
-                className="circle mb-20 h-20 w-20 bg-dark"
+                className="circle mb-20 h-20 w-20 bg-main-gradient"
               />
               <motion.h2
                 initial={{ y: 50, opacity: 0 }}
@@ -107,7 +107,7 @@ const DoubleSideToSide = ({ homeDic }) => {
                 className="text-3xl  font-primary leading-none mb-3"
               >
                 <span>{homeDic.doublesides.boxOne.title} </span>
-                <span className="text-dark ">
+                <span className="text-accentTwo ">
                   {homeDic.doublesides.boxOne.titleTwo}
                 </span>
               </motion.h2>

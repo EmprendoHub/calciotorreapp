@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const MainSliderItemsText = ({ item, index }) => {
   return (
-    <div className="relative w-full h-full pr-10 maxmd:pr-0 overflow-x-hidden">
+    <div className="relative w-full h-full pr-10 pt-10 maxmd:pr-0 overflow-x-hidden">
       {/* Text Column */}
       <div className="w-full h-full relative grid grid-cols-1 items-start ">
         <h2 className="font-primary text-7xl maxxlg:text-5xl maxmd:text-4xl flex flex-wrap items-center gap-x-3">
@@ -21,7 +21,7 @@ const MainSliderItemsText = ({ item, index }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.7 }}
-            className="text-dark"
+            className="text-accent"
           >
             {item.titleTwo}
           </motion.span>

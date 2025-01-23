@@ -2,7 +2,8 @@
   "header": {
     "menu": [
       { "title": "About", "url": "/#about-us" },
-      { "title": "Products", "url": "/#productos" },
+      { "title": "Uses", "url": "/#usos" },
+      { "title": "Gallery", "url": "/galeria" },
       { "title": "Contact", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -89,37 +90,37 @@
       "pretitle": "Experts for more than 20 years",
       "title": "Your Partner in ",
       "titleTwo": "Mineral Materials",
-      "text": "At Calcio Torre, we are dedicated to the marketing of calcium carbonate, agricultural lime and limestone, three essential materials for multiple industrial and agricultural sectors. With solid experience in the market, we guarantee top quality products that optimize production processes and add value to our customers.",
+      "text": "At Calcio Torre, we are dedicated to the wholesale sale of calcium carbonate, agricultural lime and limestone, three essential materials for multiple industrial and agricultural sectors. With solid experience in the market, we guarantee top quality products that optimize production processes and add value to our customers.",
       "btnText": "Learn More",
       "btnPath": "/en/#about-us"
     },
     "sliders": [
       {
         "preTitle": "Minerals of Confidence",
-        "title": "Optimize Your",
-        "titleTwo": "Industrial Processes",
-        "text": "Specialists in high-quality calcium carbonate, we offer tailored solutions to improve efficiency and performance in sectors such as construction, plastics and more.",
+        "title": "Animal",
+        "titleTwo": "Nutrition",
+        "text": "The use of calcium carbonate is fundamental in animal nutrition, its benefits are essential for the development, health and performance of animals, it improves their bone strength and, in the case of birds, it favors egg production. Our product can be adapted to the required granulometry according to the type of animal and application.",
         "btnText": "Discover More",
         "btnPath": "/en/productos",
-        "imgPath": "/images/carbonato_calcio_industrial.webp"
+        "imgPath": "/images/nutricion_animal.webp"
       },
       {
         "preTitle": "Agricultural Solutions",
         "title": "Boost your ",
         "titleTwo": "agricultural productivity",
-        "text": "Our agricultural lime improves soil quality, optimizing crops and maximizing yields in a sustainable way.",
+        "text": "In the agricultural industry, calcium carbonate supports crop growth, neutralizes soil acidity and thus improves soil conditions. It is an essential nutrient for the structural development of plants. It is also used for the manufacture of fertilizers, providing greater fluidity and stability and, above all, facilitating the absorption of essential nutrients.",
         "btnText": "Explore Products",
         "btnPath": "/en/productos",
-        "imgPath": "/images/cal_agricola.webp"
+        "imgPath": "/images/uso_agricola.webp"
       },
       {
         "preTitle": "Versatile Materials",
         "title": "Build with",
         "titleTwo": "Confidence and Durability",
-        "text": "Calcio Torre limestone offers the ideal base for construction projects and decorative applications, combining quality and resistance.",
+        "text": "Our calcium carbonate is a mineral widely used in the construction industry, it is ideal for the production of adhesives and paints, it provides body and volume to the product, increases wear resistance, improving its density and easy application. We have the right quality and granulometry to improve the properties of these products.",
         "btnText": "Explore Products",
         "btnPath": "/en/productos",
-        "imgPath": "/images/piedra_caliza_large.webp"
+        "imgPath": "/images/construccion.webp"
       }
     ],
     "infiniteSlider": {
@@ -151,7 +152,7 @@
         "title": "We adapt based on your",
         "titleTwo": "business needs",
         "subtitle": "Prepared for any challenge, ensuring customization and adaptability.",
-        "text": "At Calcio Torre, our strength lies in the ability to understand our customers' needs and offer solutions across a range of essential minerals, such as calcium carbonate, agricultural lime, and limestone. With over 20 years of experience in international trade, we have developed a solid network of reliable partners. Our philosophy is based on building long-lasting relationships with customers and suppliers, always guided by the principles of honesty, integrity and reliability.",
+        "text": "At Calcio Torre, our strength lies in our ability to understand our customers' needs and offer solutions through a product with the best quality and granulometry required for each industry. With more than 20 years of experience in the market, we have developed a solid network of reliable partners. Our philosophy is based on building long-lasting relationships with customers and suppliers, always guided by the principles of honesty, integrity and reliability.",
         "btnText": "Contact Us",
         "imgUrl": "/images/pexels-photo-3183197.jpeg"
       }
@@ -384,7 +385,7 @@
       "pretitle": "Contact Us",
       "title": "We would like to meet you. Feel free to",
       "titleTwo": "get in touch.",
-      "subtitle": "Let us discover how we can help improve your trade experience.",
+      "subtitle": "Request our technical data sheet and specifications for our product. We have different presentations and granulometries.",
       "location": "Location",
       "social": "Social Media",
       "questions": "General Questions",

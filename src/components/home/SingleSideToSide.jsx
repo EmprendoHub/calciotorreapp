@@ -22,7 +22,7 @@ const SingleSideToSide = ({ homeDic, flipBoxes }) => {
                 transition={{ duration: 0.7 }}
                 className="text-3xl font-primary leading-none mb-3"
               >
-                <span className=" text-dark">
+                <span className=" text-accent">
                   {homeDic.singlesides.boxOne.title}{" "}
                 </span>
                 <span className="text-black dark:text-white">
@@ -48,7 +48,7 @@ const SingleSideToSide = ({ homeDic, flipBoxes }) => {
                     duration: 1.0,
                   }}
                   aria-label="Contactar"
-                  className=" bg-dark px-10 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
+                  className=" bg-main-gradient px-10 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
                 >
                   {homeDic.singlesides.boxOne.btnText}
                 </motion.button>

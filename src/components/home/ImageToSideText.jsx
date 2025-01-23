@@ -23,7 +23,7 @@ const ImageToSideText = ({ homeDic }) => {
               <Link
                 href={homeDic.sideText.btnUrl}
                 aria-label="Contactar"
-                className="bg-dark dark:bg-black px-4 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
+                className="bg-main-gradient dark:bg-black hover:bg-accentTwo  px-4 py-3 text-white flex items-center justify-center uppercase text-xs tracking-widest"
               >
                 {homeDic.sideText.btnText}
               </Link>

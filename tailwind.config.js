@@ -9,10 +9,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        primary: "#fad0c6",
+        primary: "#252551ff",
         secondary: "#bf1b2c",
-        accent: "#F0AA44",
-        accentTwo: "#F15733",
+        accent: "#bea037ff",
+        accentTwo: "#9e862dff",
         dark: "#bf1b2c",
         light: "#fad0c6",
       },
@@ -22,16 +22,16 @@ module.exports = {
       },
 
       colors: {
-        primary: "#fad0c6",
+        primary: "#252551ff",
         secondary: "#bf1b2c",
-        accent: "#F0AA44",
-        accentTwo: "#F15733",
+        accent: "#bea037ff",
+        accentTwo: "#9e862dff",
         dark: "#bf1b2c",
         light: "#fad0c6",
       },
       backgroundImage: {
         "main-gradient":
-          "linear-gradient(to bottom right, #1984b1 0%,  #2e7cbf 100%)",
+          "linear-gradient(to bottom right, #34346cff 0%,  #252551ff 100%)",
         "secondary-gradient":
           "linear-gradient(to bottom right, #be185d 0%,  #d97706 100%)",
         "dark-gradient":

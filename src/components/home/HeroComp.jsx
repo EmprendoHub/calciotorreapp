@@ -30,7 +30,7 @@ const HeroComp = () => {
             onClick={() =>
               sendGTMEvent({ event: "buttonClicked", value: "initial" })
             }
-            className="flex bg-secondary text-white font-bold rounded-full  py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-500 ease-in-out text-sm"
+            className="flex bg-main-gradient text-white font-bold rounded-full  py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-500 ease-in-out text-sm"
           >
             ¿Te gustaría comenzar hoy?
           </Link>

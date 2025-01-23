@@ -2,7 +2,8 @@
   "header": {
     "menu": [
       { "title": "Acerca", "url": "/#about-us" },
-      { "title": "Productos", "url": "/#productos" },
+      { "title": "Usos", "url": "/#usos" },
+      { "title": "Galería", "url": "/galeria" },
       { "title": "Contacto", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"
@@ -95,30 +96,30 @@
     "sliders": [
       {
         "preTitle": "Minerales de Confianza",
-        "title": "Optimiza Tus",
-        "titleTwo": "Procesos Industriales",
-        "text": "Especialistas en carbonato de calcio de alta calidad, ofrecemos soluciones adaptadas para mejorar la eficiencia y el rendimiento en sectores como construcción, plásticos y más.",
+        "title": "Nutrición",
+        "titleTwo": "Animal",
+        "text": "El uso de carbonato de calcio es fundamental en la nutrición animal, sus beneficios son esenciales para el desarrollo, la salud y el rendimiento de los animales, mejora su fortaleza ósea y en el caso de las aves favorece a la producción de huevos. Nuestro producto lo podemos adaptar a la granulometría requerida según el tipo de animal y aplicación.",
         "btnText": "Descubre Más",
-        "btnPath": "/es/#productos",
-        "imgPath": "/images/carbonato_calcio_industrial.webp"
+        "btnPath": "/es/#usos",
+        "imgPath": "/images/nutricion_animal.webp"
       },
       {
         "preTitle": "Soluciones Agrícolas",
         "title": "Impulsa tu",
         "titleTwo": "Productividad Agrícola",
-        "text": "Nuestra cal agrícola mejora la calidad del suelo, optimizando cultivos y maximizando rendimientos de forma sostenible.",
+        "text": "En la industria agrícola, el carbonato de calcio apoya al crecimiento de los cultivos, neutraliza la acidez del suelo y con esto mejorara sus condiciones. Es un nutriente esencial para el desarrollo estructural de las plantas. Utilizado también para la fabricación de fertilizantes, brindando mayor fluidez y estabilidad y sobre todo facilitando la absorción de nutrientes esenciales.",
         "btnText": "Explorar Productos",
-        "btnPath": "/es/#productos",
-        "imgPath": "/images/cal_agricola.webp"
+        "btnPath": "/es/#usos",
+        "imgPath": "/images/uso_agricola.webp"
       },
       {
         "preTitle": "Materiales Versátiles",
         "title": "Construye con",
         "titleTwo": "Confianza y Durabilidad",
-        "text": "La piedra caliza de Calcio Torre ofrece la base ideal para proyectos de construcción y aplicaciones decorativas, combinando calidad y resistencia.",
+        "text": "Nuestro carbonato de calcio es un mineral ampliamente utilizado en la industria de la construcción, es ideal para la producción de pegapisos, adhesivos y pinturas, aporta cuerpo y volumen al producto, incrementa la resistencia al desgaste, mejorando su densidad y fácilaplicación. Contamos con la calidad y granulometría adecuadas para mejorar las propiedades de estos productos.",
         "btnText": "Conoce Más",
-        "btnPath": "/es/#productos",
-        "imgPath": "/images/piedra_caliza_large.webp"
+        "btnPath": "/es/#usos",
+        "imgPath": "/images/construccion.webp"
       }
     ],
     "infiniteSlider": {
@@ -150,7 +151,7 @@
         "title": "Nos adaptamos según las",
         "titleTwo": "necesidades de tu empresa",
         "subtitle": "Preparados para cualquier desafío, asegurando personalización y adaptabilidad.",
-        "text": "En Calcio Torre, nuestra fortaleza radica en la capacidad de entender las necesidades de nuestros clientes y ofrecer soluciones a través de una gama de minerales esenciales, como carbonato de calcio, cal agrícola, y piedra caliza. Con más de 20 años de experiencia en el comercio internacional, hemos desarrollado una sólida red de socios confiables. Nuestra filosofía se basa en construir relaciones duraderas con clientes y proveedores, siempre guiados por los principios de honestidad, integridad y confiabilidad.",
+        "text": "En Calcio Torre, nuestra fortaleza radica en la capacidad de entender las necesidades de nuestros clientes y ofrecer soluciones a través de un producto con la mejor calidad y granulometría requerida para cada industria. Con más de 20 años de experiencia en el mercado, hemos desarrollado una sólida red de socios confiables. Nuestra filosofía se basa en construir relaciones duraderas con clientes y proveedores, siempre guiados por los principios de honestidad, integridad y confiabilidad.",
         "btnText": "Contáctanos",
         "imgUrl": "/images/pexels-photo-3183197.jpeg"
       }
@@ -268,18 +269,18 @@
     "text": "Descubre nuestra gama de productos minerales: carbonato de calcio, cal agrícola, y piedra caliza, diseñados para optimizar procesos en industrias como la construcción, la agricultura y la fabricación. Cada uno de nuestros productos se adapta a tus necesidades, garantizando calidad, rendimiento y sostenibilidad en cada aplicación.",
     "categories": [
       {
-        "title": "Carbonato de Calcio",
-        "catPath": "/es/#productos?keyword=Carbonato",
+        "title": "Nutrición Animal",
+        "catPath": "/es/#usos?keyword=Carbonato",
         "imgPath": "/images/piedra_caliza.webp"
       },
       {
-        "title": "Cal Agrícola",
-        "catPath": "/es/#productos?keyword=Cal",
+        "title": "Uso Agrícola",
+        "catPath": "/es/#usos?keyword=Cal",
         "imgPath": "/images/agricultural_lime.webp"
       },
       {
-        "title": "Piedra Caliza",
-        "catPath": "/es/#productos?keyword=Caliza",
+        "title": "Uso en Construcción",
+        "catPath": "/es/#usos?keyword=Caliza",
         "imgPath": "/images/limestone.webp"
       }
     ]
@@ -298,7 +299,7 @@
       "img": "/images/beach_bonus.jpg",
       "imgTwo": "/images/beach_bonus.jpg",
       "btnText": "Ver Productos",
-      "btnLink": "/es/#productos",
+      "btnLink": "/es/#usos",
       "icon": "FaGg"
     },
     {
@@ -313,7 +314,7 @@
       "img": "/images/GTI-interior.jpeg",
       "imgTwo": "/images/GTI-interior.jpeg",
       "btnText": "Ver Productos",
-      "btnLink": "/es/#productos",
+      "btnLink": "/es/#usos",
       "icon": "FaBoxesPacking"
     },
     {
@@ -329,7 +330,7 @@
       "img": "/images/Premio_10_mil_pesos.jpg",
       "imgTwo": "/images/Premio_10_mil_pesos.jpg",
       "btnText": "Ver Productos",
-      "btnLink": "/es/#productos",
+      "btnLink": "/es/#usos",
       "icon": "FaCubesStacked"
     }
   ],
@@ -382,7 +383,7 @@
       "pretitle": "Contáctenos",
       "title": "Nos gustaría conocerte. Siéntete libre de",
       "titleTwo": "mantenerte en contacto.",
-      "subtitle": "Descubramos cómo podemos ayudarle a mejorar su experiencia comercial.",
+      "subtitle": "Solicita nuestra ficha técnica y especificaciones de nuestro producto, contamos con diferentes presentaciones y granulometrías.",
       "location": "Ubicación",
       "social": "Redes Sociales",
       "questions": "Preguntas Generales",

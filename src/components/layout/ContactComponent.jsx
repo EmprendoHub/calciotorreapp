@@ -22,7 +22,9 @@ const ContactComponent = ({ contactDic }) => {
           </p>
           <h3 className="text-center text-3xl maxsm:text-3xl font-primary mb-1">
             <span>{contactDic.contactInfo.title} </span>
-            <span className="text-dark">{contactDic.contactInfo.titleTwo}</span>
+            <span className="text-accentTwo">
+              {contactDic.contactInfo.titleTwo}
+            </span>
           </h3>
           <p className="text-center font-secondary italic maxlg:text-sm">
             {contactDic.contactInfo.subtitle}
@@ -67,7 +69,7 @@ const ContactComponent = ({ contactDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaFacebookF className="absolute text-xs group-hover:text-accentTwo ease-in-out duration-700 z-0" />
                 </Link>
                 {/* LinkedIn */}
                 {/* <Link
@@ -127,7 +129,7 @@ const ContactComponent = ({ contactDic }) => {
                       />
                     </g>
                   </svg>
-                  <FaWhatsapp className="absolute text-xs group-hover:text-dark ease-in-out duration-700 z-0" />
+                  <FaWhatsapp className="absolute text-xs group-hover:text-accentTwo ease-in-out duration-700 z-0" />
                 </Link>
               </div>
             </div>
@@ -136,7 +138,7 @@ const ContactComponent = ({ contactDic }) => {
                 {contactDic.contactInfo.questions}
               </p>
               <Link href={"mailto:ventas@calciotorre.com.mx"}>
-                <p className="text-center text-base font-primary hover:text-secondary ease-in-out duration-700">
+                <p className="text-center text-base font-primary hover:text-accentTwo ease-in-out duration-700">
                   ventas@calciotorre.com.mx
                 </p>
               </Link>
@@ -158,12 +160,14 @@ const ContactComponent = ({ contactDic }) => {
           </p>
           <h3 className="text-3xl maxsm:text-3xl font-primary mb-1 maxmd:text-center">
             <span>{contactDic.addressTwo.addressOne} </span>
-            <span className="text-dark">{contactDic.addressTwo.city}</span>
+            <span className="text-accentTwo">{contactDic.addressTwo.city}</span>
           </h3>
 
           <div className="text-xl maxsm:text-xl font-primary mb-1">
             <span>{contactDic.addressTwo.state}, </span>
-            <span className="text-dark">{contactDic.addressTwo.country}</span>
+            <span className="text-accentTwo">
+              {contactDic.addressTwo.country}
+            </span>
           </div>
           <div className="text-2xl maxsm:text-2xl font-primary mb-1">
             <Link
@@ -172,7 +176,7 @@ const ContactComponent = ({ contactDic }) => {
               href={"https://wa.me/523323104474"}
               className="relative flex items-center justify-center group"
             >
-              <span className="text-dark flex items-center justify-center gap-2">
+              <span className="text-accentTwo flex items-center justify-center gap-2">
                 <FaWhatsapp /> {contactDic.addressTwo.phone}
               </span>
             </Link>

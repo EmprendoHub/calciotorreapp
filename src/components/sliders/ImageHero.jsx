@@ -4,11 +4,10 @@ import Image from "next/image";
 
 const ImageHero = ({ homeDic }) => {
   return (
-    <div className=" bg-gradient-to-b from-red-700 to-red-500  dark:bg-black">
-      <div className="w-full h-[800px] overflow-hidden top-0 relative flex justify-center items-center flex-col ">
+    <div className=" bg-main-gradient  dark:bg-black">
+      <div className="w-full h-[800px] overflow-hidden top-0 relative flex justify-center items-center flex-col maxmd:flex-col-reverse">
         {/* overlay */}
         <div className="absolute bg-black bg-opacity-20 dark:bg-opacity-20 w-full h-full z-0" />
-
         <Image
           src={coverImage}
           width={1920}
@@ -16,11 +15,11 @@ const ImageHero = ({ homeDic }) => {
           priority
           loading="eager"
           alt="portfolio image"
-          className="object-cover h-full w-full"
+          className="object-cover maxmd:object-left w-full h-full"
         />
-        <div className="absolute top-40 maxsm:top-20 right-20 maxlg:right-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[45%] maxsm:w-[90%] maxlg:w-[50%]">
+        <div className="absolute maxmd:relative top-40 maxsm:top-20 right-20 maxlg:right-5 z-10 text-white text-7xl maxlg:text-5xl font-primary w-[45%] maxmd:w-[90%] px-5 maxlg:w-[50%]">
           <h2 className="font-primary leading-none mb-3">
-            <span className="text-black dark:text-white">
+            <span className="text-accent dark:text-white">
               {homeDic.imageHero.title}{" "}
             </span>
             <span className="text-white dark:text-dark">

@@ -13,7 +13,7 @@ const SectionTitle = ({ title, titleTwo = "", subtitle, className = "" }) => {
         className="  font-primary mb-4"
       >
         <span className="text-black dark:text-white">{title} </span>
-        <span className=" text-dark">{titleTwo}</span>
+        <span className=" text-accentTwo">{titleTwo}</span>
       </motion.h2>
 
       <motion.div

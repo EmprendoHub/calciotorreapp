@@ -30,8 +30,8 @@ const HeroSlider = ({ homeDic }) => {
   return (
     <>
       <div
-        id="productos"
-        className="relative h-full justify-center flex items-center maxmd:flex-col w-full px-40 maxxlg:px-20 maxmd:px-5 maxsm:pl-2 py-20 maxsm:pt-10 bg-white dark:bg-black  overflow-hidden"
+        id="usos"
+        className="relative h-full justify-center flex items-start maxmd:flex-col w-full px-40 maxxlg:px-20 maxmd:px-5 maxsm:pl-2 py-20 maxsm:pt-10 bg-white dark:bg-black  overflow-hidden"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
