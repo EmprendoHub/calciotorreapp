@@ -10,6 +10,7 @@ import { useDispatch } from "react-redux";
 import { useSearchParams } from "next/navigation";
 import TopBar from "./TopBar";
 import LocaleToggleFlags from "../layout/LocaleToggleFlags";
+import DarkLogoComponent from "../logos/DarkLogoComponent";
 
 const MotionHeaderComponent = ({ localeHeader, lang }) => {
   const [hidden, setHidden] = useState(true);
@@ -65,7 +66,7 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
             !transparency ? "bg-white" : "bg-white bg-opacity-90"
           }`}
         >
-          <WhiteLogoComponent lang={lang} />
+          <DarkLogoComponent lang={lang} />
           <motion.div
             variants={containerVariants}
             initial="initial"

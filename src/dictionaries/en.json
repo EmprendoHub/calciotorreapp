@@ -3,7 +3,6 @@
     "menu": [
       { "title": "About", "url": "/#about-us" },
       { "title": "Uses", "url": "/#usos" },
-      { "title": "Gallery", "url": "/galeria" },
       { "title": "Contact", "url": "/#contacto" }
     ],
     "searchbar": "Buscar"

@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const DarkLogoComponent = ({ className }) => {
   return (
-    <div className={`relative ${className}`}>
+    <div className={`relative flex ${className}`}>
       <Link aria-label="dark-logo" href={"/"}>
         <Image
           alt="image"
-          src={"/logos/hudson_Intl_full_logo_light.webp"}
+          src={"/logos/logo_dark_h.webp"}
           width={180}
           height={55}
           priority
