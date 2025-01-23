@@ -10,10 +10,10 @@ module.exports = {
     extend: {
       backgroundColor: {
         primary: "#252551ff",
-        secondary: "#bf1b2c",
+        secondary: "#bea037ff",
         accent: "#bea037ff",
         accentTwo: "#9e862dff",
-        dark: "#bf1b2c",
+        dark: "#252551ff",
         light: "#fad0c6",
       },
       fontFamily: {
@@ -23,10 +23,10 @@ module.exports = {
 
       colors: {
         primary: "#252551ff",
-        secondary: "#bf1b2c",
+        secondary: "#bea037ff",
         accent: "#bea037ff",
         accentTwo: "#9e862dff",
-        dark: "#bf1b2c",
+        dark: "#252551ff",
         light: "#fad0c6",
       },
       backgroundImage: {
