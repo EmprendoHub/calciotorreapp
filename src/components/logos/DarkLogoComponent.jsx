@@ -11,7 +11,7 @@ const DarkLogoComponent = ({ className }) => {
           width={180}
           height={55}
           priority
-          className={`overflow-hidden transition-all ease-in-out w-36 py-2 h-auto`}
+          className={`overflow-hidden transition-all ease-in-out w-36 maxmd:min-w-28 py-2 h-auto`}
         />
       </Link>
     </div>

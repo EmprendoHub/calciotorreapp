@@ -34,7 +34,7 @@ const MainSliderItemsText = ({ item, index }) => {
         >
           {item.text}
         </motion.p>
-        <Link href={item.btnPath}>
+        {/* <Link href={item.btnPath}>
           <motion.button
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -43,7 +43,7 @@ const MainSliderItemsText = ({ item, index }) => {
           >
             {item.btnText} <FaArrowRightLong />
           </motion.button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

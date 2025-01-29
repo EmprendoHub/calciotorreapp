@@ -4,7 +4,7 @@ import Link from "next/link";
 const LightLogoComponent = ({ className }) => {
   return (
     <div className={`relative ${className}`}>
-      <Link aria-label="dark-logo" href={"/"}>
+      <Link aria-label="light-logo" href={"/"}>
         <Image
           alt="image"
           src={"/logos/hudson_Intl_full_logo_dark.webp"}

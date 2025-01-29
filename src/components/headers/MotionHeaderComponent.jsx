@@ -62,7 +62,7 @@ const MotionHeaderComponent = ({ localeHeader, lang }) => {
           variants={{ hidden: { y: 0 }, visible: { y: "-110%" } }}
           animate={hidden ? "hidden" : "visible"}
           transition={{ duration: 0.35, ease: "easeInOut" }}
-          className={`px-40 print:hidden flex flex-row items-center justify-between  header-class text-black  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 h-[80px] ${
+          className={`px-40 maxmd:px-20 print:hidden flex flex-row items-center justify-between  header-class text-black  text-xl fixed top-0 z-[30]  w-full mx-auto py-3 h-[80px] ${
             !transparency ? "bg-white" : "bg-white bg-opacity-90"
           }`}
         >

@@ -76,7 +76,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
               onClick={toggleMobileMenu}
               className="cursor-pointer text-md  absolute right-4 top-4"
             >
-              <AiOutlineClose />
+              <AiOutlineClose className="text-white" />
             </p>
             <div className="relative flex h-full flex-col mb-5">
               <WhiteLogoComponent className={"mb-5"} lang={lang} />
@@ -133,7 +133,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                       />
                     </g>
                   </svg>
-                  <FaFacebookF className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaFacebookF className="absolute text-xs text-white group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
                 {/* LinkedIn */}
                 {/* <Link
@@ -193,7 +193,7 @@ const MobileMenuComponent = ({ className, lang, localeHeader }) => {
                       />
                     </g>
                   </svg>
-                  <FaWhatsapp className="absolute text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
+                  <FaWhatsapp className="absolute text-white text-xs group-hover:text-secondary ease-in-out duration-700 z-0" />
                 </Link>
               </div>
             </div>
@@ -232,7 +232,7 @@ const MobileNavLink = ({ title, href, toggleMobileMenu }) => {
       <Link
         href={href}
         onClick={toggleMobileMenu}
-        className="relative group flex items-center text-lg font-primary p-3 
+        className="relative group flex text-white items-center text-lg font-primary p-3 
           "
       >
         <span className={`${styles.bouncingBall}   hidden group-hover:block`} />

@@ -3,7 +3,8 @@
     "menu": [
       { "title": "Acerca", "url": "/#about-us" },
       { "title": "Usos", "url": "/#usos" },
-      { "title": "Contacto", "url": "/#contacto" }
+      { "title": "Contacto", "url": "/#contacto" },
+      { "title": "Galería", "url": "/galeria" }
     ],
     "searchbar": "Buscar"
   },
@@ -38,14 +39,14 @@
       "mapUrl": "https://maps.app.goo.gl/ZGz6MvactPHiEbPD6"
     },
     "widgettwo": {
-      "title": "Productos",
+      "title": "Usos",
       "links": [
         {
-          "title": "Carbonato de Calcio",
-          "url": "/productos?keyword=Carbonato"
+          "title": "Uso en Construcción",
+          "url": "/#usos?keyword=Construccion"
         },
-        { "title": "Cal Agrícola", "url": "/productos?keyword=Cal" },
-        { "title": "Piedra Caliza", "url": "/productos?keyword=Caliza" }
+        { "title": "Uso Agrícola", "url": "/#usos?keyword=Agrícola" },
+        { "title": "Uso Alimento Animal", "url": "/#usos?keyword=Animal" }
       ]
     },
     "widgetthree": {
@@ -88,7 +89,7 @@
       "pretitle": "Expertos desde hace más de 20 años.",
       "title": "Tu Socio en ",
       "titleTwo": "Materiales Minerales",
-      "text": "En Calcio Torre, nos dedicamos a la comercialización de carbonato de calcio, cal agrícola y piedra caliza, tres materiales fundamentales para múltiples sectores industriales y agrícolas. Con una sólida experiencia en el mercado, garantizamos productos de calidad superior que optimizan procesos productivos y aportan valor a nuestros clientes.",
+      "text": "En Calcio Torre, nos dedicamos a la comercialización de carbonato de calcio,  material fundamental para múltiples sectores industriales, de construcción y agrícolas. Con una sólida experiencia en el mercado, garantizamos productos de calidad superior que optimizan procesos productivos y aportan valor a nuestros clientes.",
       "btnText": "Aprende Más",
       "btnPath": "/about-us"
     },
@@ -237,8 +238,8 @@
   },
   "productDic": {
     "preTitle": "COMERCIO DE MINERALES",
-    "title": "Carbonato de Calcio, Cal Agrícola &",
-    "titleTwo": "Piedra Caliza",
+    "title": "Carbonato ",
+    "titleTwo": "de Calcio",
     "single": {
       "packing": "Empaquetado",
       "weight": "Peso",
@@ -263,9 +264,9 @@
     ]
   },
   "categoryDic": {
-    "title": "Carbonato de Calcio, Cal Agrícola &",
-    "titleTwo": "Piedra Caliza",
-    "text": "Descubre nuestra gama de productos minerales: carbonato de calcio, cal agrícola, y piedra caliza, diseñados para optimizar procesos en industrias como la construcción, la agricultura y la fabricación. Cada uno de nuestros productos se adapta a tus necesidades, garantizando calidad, rendimiento y sostenibilidad en cada aplicación.",
+    "title": "Carbonato",
+    "titleTwo": " de Calcio",
+    "text": "En Calcio Torre nos dedicamos a la comercialización de carbonato de calcio, material fundamental para múltiples sectores industriales, de la construcción y agrícolas. Con una sólida experiencia en el mercado, garantizamos productos de primera calidad que optimizan los procesos productivos y aportan valor a nuestros clientes.",
     "categories": [
       {
         "title": "Nutrición Animal",

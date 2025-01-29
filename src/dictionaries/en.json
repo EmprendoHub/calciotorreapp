@@ -3,7 +3,8 @@
     "menu": [
       { "title": "About", "url": "/#about-us" },
       { "title": "Uses", "url": "/#usos" },
-      { "title": "Contact", "url": "/#contacto" }
+      { "title": "Contact", "url": "/#contacto" },
+      { "title": "Gallery", "url": "/galeria" }
     ],
     "searchbar": "Buscar"
   },
@@ -38,14 +39,14 @@
       "mapUrl": "https://maps.app.goo.gl/c5twJrvpb3KpXMhH8"
     },
     "widgettwo": {
-      "title": "Products",
+      "title": "Uses",
       "links": [
-        { "title": "Calcium Carbonate", "url": "/productos?keyword=Carbonato" },
         {
-          "title": "Agricultural Lime",
-          "url": "/productos?keyword=Cal"
+          "title": "Construction",
+          "url": "/#usos?keyword=Construccion"
         },
-        { "title": "Limestone", "url": "/productos?keyword=Caliza" }
+        { "title": "Agricultural", "url": "/#usos?keyword=Agrícola" },
+        { "title": "Animal Feed", "url": "/#usos?keyword=Animal" }
       ]
     },
     "widgetthree": {
@@ -89,7 +90,7 @@
       "pretitle": "Experts for more than 20 years",
       "title": "Your Partner in ",
       "titleTwo": "Mineral Materials",
-      "text": "At Calcio Torre, we are dedicated to the wholesale sale of calcium carbonate, agricultural lime and limestone, three essential materials for multiple industrial and agricultural sectors. With solid experience in the market, we guarantee top quality products that optimize production processes and add value to our customers.",
+      "text": "At Calcio Torre we are dedicated to the marketing of calcium carbonate, a fundamental material for multiple industrial, construction and agricultural sectors. With solid experience in the market, we guarantee top quality products that optimize production processes and add value to our customers.",
       "btnText": "Learn More",
       "btnPath": "/en/#about-us"
     },
@@ -238,8 +239,8 @@
   },
   "productDic": {
     "preTitle": "INTERNATIONAL TRADE",
-    "title": "Calcium Carbonate, Agricultural Lime &",
-    "titleTwo": " Limestone",
+    "title": "Calcium",
+    "titleTwo": " Carbonate",
     "single": {
       "packing": "Packing",
       "weight": "Weight",
@@ -264,9 +265,9 @@
     ]
   },
   "categoryDic": {
-    "title": "Calcium Carbonate, Agricultural Lime &",
-    "titleTwo": " Limestone",
-    "text": "Discover our range of mineral products: calcium carbonate, agricultural lime, and limestone, designed to optimize processes in industries such as construction, agriculture and manufacturing. Each of our products is tailored to your needs, ensuring quality, performance and sustainability in every application.",
+    "title": "Calcium",
+    "titleTwo": " Carbonate",
+    "text": "At Calcio Torre we are dedicated to the marketing of calcium carbonate, a fundamental material for multiple industrial, construction and agricultural sectors. With solid experience in the market, we guarantee top quality products that optimize production processes and add value to our customers.",
     "categories": [
       {
         "title": "Calcium Carbonate",
