@@ -3,9 +3,9 @@ import React from "react";
 
 const IconGridComp = ({ servicesDic }) => {
   return (
-    <div className="px-40 bg-main-gradient text-white mx-auto py-12 maxlg:px-8 maxsm:px-6 ">
+    <div className="px-40 maxxlg:px-20 maxlg:px-8 maxsm:px-6 bg-main-gradient text-white mx-auto py-12  ">
       <div className="mt-10">
-        <div className="grid maxsm:grid-cols-1 grid-cols-3 gap-10">
+        <div className="grid maxmd:grid-cols-1 grid-cols-3 gap-10">
           {servicesDic.services.map((service, index) => (
             <div
               key={index}
