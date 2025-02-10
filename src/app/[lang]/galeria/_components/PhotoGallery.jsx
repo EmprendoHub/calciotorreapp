@@ -30,7 +30,7 @@ const PhotoGallery = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 pt-20 bg-main-gradient">
+    <div className="container mx-auto px-4 py-8 pt-20 bg-main-gradient ">
       {/* Gallery Grid */}
       <div className="flex flex-wrap gap-4">
         {GALLERY.map((photo, index) => (
