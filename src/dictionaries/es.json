@@ -43,16 +43,17 @@
       "links": [
         {
           "title": "Uso en Construcción",
-          "url": "/#usos?keyword=Construccion"
+          "url": "/#usos"
         },
-        { "title": "Uso Agrícola", "url": "/#usos?keyword=Agrícola" },
-        { "title": "Uso Alimento Animal", "url": "/#usos?keyword=Animal" }
+        { "title": "Uso Agrícola", "url": "/#usos" },
+        { "title": "Uso Alimento Animal", "url": "/#usos" }
       ]
     },
     "widgetthree": {
       "title": "Sitio",
       "links": [
-        { "title": "Productos", "url": "/productos" },
+        { "title": "Home", "url": "/" },
+        { "title": "Gallery", "url": "/galeria" },
         { "title": "Contacto", "url": "/#contacto" },
         { "title": "Nosotros", "url": "/#about-us" }
       ]

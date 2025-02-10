@@ -30,15 +30,19 @@ const PhotoGallery = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8 pt-20 bg-main-gradient ">
+    <div className="w-full flex flex-col items-center justify-center px-20  maxlg:px-10 maxsm:px-5 py-8 bg-main-gradient rounded-lg my-20 mx-5">
       {/* Gallery Grid */}
-      <div className="flex flex-wrap gap-4">
+      <div className="relative grid grid-cols-4 maxlg:grid-cols-3 maxmd:grid-cols-2 gap-4 auto-rows-[minmax(150px, auto)]">
         {GALLERY.map((photo, index) => (
           <motion.div
             key={photo.id}
-            className={`relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer w-32 h-auto ${
+            className={`relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 cursor-pointer ${
               photo.span ? `col-span-${photo.span}` : ""
-            }`}
+            } ${photo.rowSpan ? `row-span-${photo.rowSpan}` : ""}`}
+            style={{
+              gridColumn: photo.span ? `span ${photo.span}` : "span 1",
+              gridRow: photo.rowSpan ? `span ${photo.rowSpan}` : "span 1",
+            }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => openLightbox(index)}

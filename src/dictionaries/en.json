@@ -43,19 +43,19 @@
       "links": [
         {
           "title": "Construction",
-          "url": "/#usos?keyword=Construccion"
+          "url": "/#usos"
         },
-        { "title": "Agricultural", "url": "/#usos?keyword=Agrícola" },
-        { "title": "Animal Feed", "url": "/#usos?keyword=Animal" }
+        { "title": "Agricultural", "url": "/#usos" },
+        { "title": "Animal Feed", "url": "/#usos" }
       ]
     },
     "widgetthree": {
       "title": "Site",
       "links": [
         { "title": "Home", "url": "/" },
-        { "title": "Products", "url": "/productos" },
+        { "title": "Galería", "url": "/galeria" },
         { "title": "Contact", "url": "/#contacto" },
-        { "title": "About Us", "url": "/acerca" }
+        { "title": "About Us", "url": "/#about-us" }
       ]
     },
     "widgetfour": {
