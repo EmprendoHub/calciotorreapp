@@ -2,7 +2,7 @@
 import { useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import coverImage from "../../../public/images/section_background.webp";
+import coverImage from "../../../public/images/carbonato-de-calcio.jpg";
 import ImageToSideText from "../home/ImageToSideText";
 import DoubleSideToSide from "../home/DoubleSideToSide";
 
