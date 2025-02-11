@@ -32,7 +32,7 @@ const PhotoGallery = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center px-20  maxlg:px-10 maxsm:px-5 py-8 bg-main-gradient rounded-lg my-20 mx-5">
       {/* Gallery Grid */}
-      <div className="relative grid grid-cols-4 maxlg:grid-cols-3 maxmd:grid-cols-2 gap-4 auto-rows-[minmax(150px, auto)]">
+      <div className="relative grid grid-cols-4 maxlg:grid-cols-3  maxmd:grid-cols-2 gap-4 auto-rows-[minmax(150px, auto)]">
         {GALLERY.map((photo, index) => (
           <motion.div
             key={photo.id}
