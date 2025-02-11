@@ -70,7 +70,7 @@ const PhotoGallery = () => {
           >
             {/* Lightbox Content */}
             <motion.div
-              className="relative max-w-4xl w-full mx-4"
+              className="relative max-w-4xl w-[600px] mx-4"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
