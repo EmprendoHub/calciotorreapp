@@ -25,7 +25,7 @@ export const GALLERY = [
   },
   {
     id: 21,
-    url: "/gallery/bodega21_20.webp",
+    url: "/gallery/bodega57_86.webp",
     span: 1,
     rowSpan: 1,
   },

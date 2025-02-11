@@ -90,7 +90,7 @@ const PhotoGallery = () => {
                 alt={`Gallery Image ${GALLERY[selectedImageIndex].id}`}
                 width={800}
                 height={800}
-                className="w-fit h-full object-contain rounded-lg"
+                className="w-fit h-auto object-contain rounded-lg"
                 layout="responsive"
               />
 
